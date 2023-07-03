@@ -13,7 +13,9 @@ btnLogin.addEventListener("click", function () {
     const NameSurname = user.value;
 
     document.getElementById("name-surname").innerHTML = NameSurname;
+
     document.getElementById("num").innerHTML = num;
+
     const price = (km * 0.21);
 
     const priceDecimal = price.toFixed(2);
